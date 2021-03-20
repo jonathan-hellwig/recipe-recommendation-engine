@@ -22,4 +22,5 @@ The website used to obtain japanese recipes is [クラシル](https://www.kurash
 1. Questions
 1. Categories
 1. Keywords
+
 The recipes on クラシル all have the same structure. Therefore, in order to obtain every recipe it is possible to create a scraping function for a single recipe and then iterate over all recipes. On クラシル there is no list of all recipes. A possible approach is to iterate over all categories of recipes and scrape each recipe of that category. This approach might lead to some recipes to be included multiple times because each recipe belongs to several categories. To avoid that problem a unique id is assigned to each recipe. Before adding a new recipe to the data base the id is checked and if the data base already contains the recipe scraping is aborted.
