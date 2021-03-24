@@ -25,5 +25,15 @@ The website used to obtain japanese recipes is [クラシル](https://www.kurash
 
 The recipes on クラシル all have the same structure. Therefore, in order to obtain every recipe it is possible to create a scraping function for a single recipe and then iterate over all recipes. On クラシル there is no list of all recipes. A possible approach is to iterate over all categories of recipes and scrape each recipe of that category. This approach might lead to some recipes to be included multiple times because each recipe belongs to several categories. To avoid that problem a unique id is assigned to each recipe. Before adding a new recipe to the data base the id is checked and if the data base already contains the recipe scraping is aborted.
 
+The data of each recipe page is divided into five data frames:
+1. Recipe name, preparation time, cost of ingredients
+1. Recipe name, Ingredients, quantities
+1. Recipe name, Instructions
+1. Recipe name, User name, Date, Comments
+1. Recipe name, Categories
+The reason for dividing the data into five different data frames is to preserve the [tidy data](https://vita.had.co.nz/papers/tidy-data.html) format. In later stages of the project this format will simplify data analysis greatly. 
 # Project status
-21.03.21 Finished scraping script for a single recipe. The next step is to clean the data and apply the script to a list of recipes.
+21.03.21 Finished scraping script for a single recipe. The next step is to apply the script to a list of recipes.
+24.03.21 Added functionality to iterate over all recipes listed on クラシル and combine all results into a single list. The scraping for the comments is still not working. Since there are over 20000 recipes on クラシル the whole scraping process takes approximatly two days if sufficient delay between scraping attemps is added.
+# Credit
+1. The resource I mainly used to learn about web scraping in R is a [blog post](https://www.r-bloggers.com/2020/05/intro-to-polite-web-scraping-of-soccer-data-with-r/) by R by R(yo). The post goes into great detail on how to used the polite package to do ethical web scraping in R.
