@@ -39,3 +39,4 @@ The reason for dividing the data into five different data frames is to preserve 
 24.03.21 Added functionality to iterate over all recipes listed on クラシル and combine all results into a single list. The scraping for the comments is still not working. Since there are over 20000 recipes on クラシル the whole scraping process takes approximatly two days if sufficient delay between scraping attemps is added.
 # Credit
 1. The resource I mainly used to learn about web scraping in R is a [blog post](https://www.r-bloggers.com/2020/05/intro-to-polite-web-scraping-of-soccer-data-with-r/) by R by R(yo). The post goes into great detail on how to used the polite package to do ethical web scraping in R.
+1. The [github page](https://github.com/dmi3kno/polite) of the polite package also provided some useful examples.
