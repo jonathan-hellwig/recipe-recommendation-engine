@@ -3,10 +3,10 @@ library(glue)
 library(purrr)
 library(tibble)
 library(polite)
-library(dplyr)
+suppressMessages(library(dplyr))
 library(stringr)
 library(httr)
-library(log4r)
+suppressMessages(library(log4r))
 
 delay_by <- function(f, amount) {
   force(f)
@@ -71,17 +71,15 @@ get_single_recipe_df <- function(session, url) {
 
 # Iterate over ever recipe
 
-get_all_recipe_links <- function(session, first_page, last_page) {
+get_all_recipe_links <- function(session, current_page) {
   recipe_links <- vector(mode = "character")
-  for (current_page in first_page:last_page) {
-    response <- scrape(session,
-                       query = list(page = current_page)) %>%
+  response <- scrape(session,
+                     query = list(page = current_page)) %>%
     html_nodes(".title") %>%
     html_attr("href")
   recipe_links <- c(recipe_links,
                     map_chr(response,
                             ~glue("https://www.kurashiru.com", .x)))
-  }
   recipe_links
 }
 
@@ -89,28 +87,31 @@ get_recipes_in_page_range <- function(first_page, last_page) {
   base_url <- "https://www.kurashiru.com/video_categories/139"
   session <- polite::bow(base_url)
   default_logger <- log4r::logger()
-  log4r::info(default_logger, "Started obtaining recipe links.")
-  recipe_links <- session %>%
-    get_all_recipe_links(first_page, last_page)
-  log4r::info(default_logger, "Finished obtaining recipe links.")
-  get_single_recipe_delayed <- delay_by(get_single_dynamic_recipe_df, 5)
-  recipe_list <- purrr::map(recipe_links,
-                            ~get_single_recipe_delayed(.x))
-  combined_recipes <- recipe_list %>%
-    reduce(function(first_list, second_list) {
-             purrr::map2(first_list, second_list, dplyr::bind_rows)})
-  combined_recipes
+  for(current_page in first_page:last_page) {
+    log4r::info(default_logger, glue::glue("Started obtaining recipe links for page {current_page}."))
+    recipe_links <- session %>%
+      get_all_recipe_links(current_page)
+    log4r::info(default_logger, glue::glue("Finished obtaining recipe links for page {current_page}."))
+    get_single_recipe_delayed <- delay_by(get_single_dynamic_recipe_df, 5)
+    recipe_list <- purrr::map2(recipe_links, 1:30, function(url, recipe_number) {
+    				      log4r::info(default_logger, glue::glue("Started to obtain recipe {recipe_number} on page {current_page}."))
+				      get_single_recipe_delayed(url)
+    				      log4r::info(default_logger, glue::glue("Finished to obtain recipe {recipe_number} on page {current_page}."))
+		    })
+    combined_recipes <- recipe_list %>%
+      reduce(function(first_list, second_list) {
+               purrr::map2(first_list, second_list, dplyr::bind_rows)})
+
+    log4r::info(default_logger, glue::glue("Started writing page {current_page} to database."))
+    write_status <- write_to_db(combined_recipes)
+    log4r::info(default_logger, glue::glue("Finished writing page {current_page} to database with status {write_status}."))
+  }
 }
 
 get_single_dynamic_recipe_df <- function(url) {
-  default_logger <- log4r::logger()
 
   id <- stringr::str_sub(url, start = 35L, end = -1L)
-
-  log4r::info(default_logger, glue::glue("Obtaining recipe with id {id}."))
-  system(glue::glue("python scrape_page.py {url} > current_page.html"))
-
-  log4r::info(default_logger, glue::glue("Finished recipe with id {id}."))
+  system(glue::glue("google-chrome --log-level=3 --headless --disable-gpu --dump-dom {url} > current_page.html"))
   content <- rvest::read_html("current_page.html", encoding = "utf-8")
 
   title <- content %>%
@@ -183,15 +184,17 @@ write_to_db <- function(combined_recipes) {
                         host = "localhost",
                         port = 5432,
                         dbname = "recipes",
-                        user = "postgres",
-                        password = "")
+                        user = "jonathan",
+                        password = "password")
   table_names <- c("recipe", "ingredients", "comments", "categories")
-  purrr::map2_lgl(combined_recipes, table_names,
+  write_status <- purrr::map2_lgl(combined_recipes, table_names,
     ~DBI::dbWriteTable(con, .y, .x, append = TRUE, row.names = FALSE))
 
+  DBI::dbDisconnect(con)
+  return(write_status)
 }
-url <- "https://www.kurashiru.com/recipes/3365e1c3-f4e5-4de4-8b04-f1ad19e44f51"
-output <- get_single_dynamic_recipe_df(url)
-write_to_db(output)
-
-combined_recipes  <- get_recipes_in_page_range(1, 1)
+#url <- "https://www.kurashiru.com/recipes/3365e1c3-f4e5-4de4-8b04-f1ad19e44f51"
+#output <- get_single_dynamic_recipe_df(url)
+#print(output)
+#write_to_db(output)
+get_recipes_in_page_range(1, 875)
