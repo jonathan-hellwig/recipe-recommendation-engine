@@ -1,296 +1,114 @@
-1617628131266	geckodriver	INFO	Listening on 127.0.0.1:52147
-1617628131275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh3oGdz"
 *** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
 
-(/usr/lib/firefox/firefox:44551): GLib-GObject-CRITICAL **: 13:08:52.350: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:5928): GLib-GObject-CRITICAL **: 11:08:00.070: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:44571): GLib-GObject-CRITICAL **: 13:08:52.519: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:5945): GLib-GObject-CRITICAL **: 11:08:00.175: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617700080813	Marionette	INFO	Listening on port 38667
+1617700080930	Marionette	WARN	TLS certificate errors will be ignored for this session
 
-(/usr/lib/firefox/firefox:44625): GLib-GObject-CRITICAL **: 13:08:54.283: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617628134289	Marionette	INFO	Listening on port 38343
-1617628134430	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/simgad/11300659568397995209/downsize_200k_v1?sqp=4sqPyQSWAUKTAQgAEhQNzczMPhUAAABAHQAAAAAlAAAAABgAIgoNAACAPxUAAIA_Kk8IWhABHQAAtEIgASgBMAY4A0CAwtcvSABQAFgAYFpwAngAgAEAiAEAkAEAnQEAAIA_oAEAqAEAsAGAreIEuAH___________8BxQEtsp0-MhoIqgIQnAEYASABLQAAAD8wqgI4nAFFAACAPw&rs=AOga4qmjiKpMrB7uy77682h7TX2-R1GlEw​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-1617628140669	Marionette	INFO	Stopped listening on port 38343
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileh3oGdz/protections.sqlite
-1617628268422	geckodriver	INFO	Listening on 127.0.0.1:60463
-1617628268433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAHT4Vg"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:44946): GLib-GObject-CRITICAL **: 13:11:09.438: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:44965): GLib-GObject-CRITICAL **: 13:11:09.599: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-(/usr/lib/firefox/firefox:45059): GLib-GObject-CRITICAL **: 13:11:11.175: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617628271222	Marionette	INFO	Listening on port 41457
-1617628271267	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/8705042682906473110​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-1617628279046	Marionette	INFO	Stopped listening on port 41457
-JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1709: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1709: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1617628732488	geckodriver	INFO	Listening on 127.0.0.1:50445
-1617628732498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqqZZ5a"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:45269): GLib-GObject-CRITICAL **: 13:18:53.455: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:45288): GLib-GObject-CRITICAL **: 13:18:53.613: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1617628735062	Marionette	INFO	Listening on port 33897
-
-(/usr/lib/firefox/firefox:45339): GLib-GObject-CRITICAL **: 13:18:55.107: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617628735129	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/simgad/2726351340621386024?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qmcYKGCH3o7vv_iJgBv4qRK3aKosw​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-1617628740907	Marionette	INFO	Stopped listening on port 33897
+(/usr/lib/firefox/firefox:6013): GLib-GObject-CRITICAL **: 11:08:01.103: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UnhshoEcEp7BUdiAp0L0lVvGOuovhfpkH6FMm_tLZKs.js line 1 > eval line 630 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UnhshoEcEp7BUdiAp0L0lVvGOuovhfpkH6FMm_tLZKs.js line 1 > eval line 630 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1617700087214	Marionette	INFO	Stopped listening on port 38667
 JavaScript error: , line 0: uncaught exception: undefined
-1617628881467	geckodriver	INFO	Listening on 127.0.0.1:48733
-1617628881477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerYVKL1"
 *** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
 
-(/usr/lib/firefox/firefox:46549): GLib-GObject-CRITICAL **: 13:21:22.426: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:6153): GLib-GObject-CRITICAL **: 11:08:19.770: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:46568): GLib-GObject-CRITICAL **: 13:21:22.587: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:6170): GLib-GObject-CRITICAL **: 11:08:19.886: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617700100479	Marionette	INFO	Listening on port 42329
+1617700100552	Marionette	WARN	TLS certificate errors will be ignored for this session
 
-(/usr/lib/firefox/firefox:46651): GLib-GObject-CRITICAL **: 13:21:24.001: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617628884071	Marionette	INFO	Listening on port 37291
-1617628884111	Marionette	WARN	TLS certificate errors will be ignored for this session
-1617628889891	Marionette	INFO	Stopped listening on port 37291
+(/usr/lib/firefox/firefox:6238): GLib-GObject-CRITICAL **: 11:08:20.791: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UnhshoEcEp7BUdiAp0L0lVvGOuovhfpkH6FMm_tLZKs.js line 1 > eval line 889 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UnhshoEcEp7BUdiAp0L0lVvGOuovhfpkH6FMm_tLZKs.js line 1 > eval line 889 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1617700105805	Marionette	INFO	Stopped listening on port 42329
 JavaScript error: , line 0: uncaught exception: undefined
-JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilerYVKL1/protections.sqlite
-1617629055142	geckodriver	INFO	Listening on 127.0.0.1:44141
-1617629055151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileljWQhn"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:46831): GLib-GObject-CRITICAL **: 13:24:16.095: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:46850): GLib-GObject-CRITICAL **: 13:24:16.244: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-(/usr/lib/firefox/firefox:46909): GLib-GObject-CRITICAL **: 13:24:17.733: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617629057800	Marionette	INFO	Listening on port 36525
-1617629057885	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/8705042682906473110​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-1617629082633	Marionette	INFO	Stopped listening on port 36525
-JavaScript error: , line 0: uncaught exception: undefined
-1617629169166	geckodriver	INFO	Listening on 127.0.0.1:33841
-1617629169175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilel7vJJM"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:47086): GLib-GObject-CRITICAL **: 13:26:10.062: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:47105): GLib-GObject-CRITICAL **: 13:26:10.240: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-(/usr/lib/firefox/firefox:47177): GLib-GObject-CRITICAL **: 13:26:11.753: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:47176): GLib-GObject-CRITICAL **: 13:26:11.808: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617629171816	Marionette	INFO	Listening on port 38377
-1617629171905	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/8705042682906473110​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-1617629179298	Marionette	INFO	Stopped listening on port 38377
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
-
-1617629622310	geckodriver	INFO	Listening on 127.0.0.1:42123
-1617629622319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiMD2Ba"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:47414): GLib-GObject-CRITICAL **: 13:33:43.319: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:47433): GLib-GObject-CRITICAL **: 13:33:43.465: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-(/usr/lib/firefox/firefox:47486): GLib-GObject-CRITICAL **: 13:33:45.123: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617629625154	Marionette	INFO	Listening on port 37925
-1617629625250	Marionette	WARN	TLS certificate errors will be ignored for this session
-1617629626249	Marionette	INFO	Stopped listening on port 37925
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1617630554764	geckodriver	INFO	Listening on 127.0.0.1:54283
-1617630554773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSwliXH"
 *** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
 
-(/usr/lib/firefox/firefox:47859): GLib-GObject-CRITICAL **: 13:49:15.736: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:13297): GLib-GObject-CRITICAL **: 07:34:44.947: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:47878): GLib-GObject-CRITICAL **: 13:49:15.876: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+(/usr/lib/firefox/firefox:13344): GLib-GObject-CRITICAL **: 07:34:45.332: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:47953): GLib-GObject-CRITICAL **: 13:49:17.397: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617630557417	Marionette	INFO	Listening on port 38289
-1617630557504	Marionette	WARN	TLS certificate errors will be ignored for this session
-1617630577148	Marionette	INFO	Stopped listening on port 38289
-IPDL protocol error: Handler returned error code!
+(/usr/lib/firefox/firefox:13361): GLib-GObject-CRITICAL **: 07:34:45.467: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617773685561	Marionette	INFO	Listening on port 40239
+1617773685617	Marionette	WARN	TLS certificate errors will be ignored for this session
 
-###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+(/usr/lib/firefox/firefox:13416): GLib-GObject-CRITICAL **: 07:34:45.985: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617773686459	Marionette	INFO	Stopped listening on port 40239
 
-1617630583170	geckodriver	INFO	Listening on 127.0.0.1:51645
-1617630583180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesxMjtT"
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 *** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
 
-(/usr/lib/firefox/firefox:48095): GLib-GObject-CRITICAL **: 13:49:44.126: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:13524): GLib-GObject-CRITICAL **: 07:35:18.345: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:48114): GLib-GObject-CRITICAL **: 13:49:44.288: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+(/usr/lib/firefox/firefox:13571): GLib-GObject-CRITICAL **: 07:35:18.751: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:48169): GLib-GObject-CRITICAL **: 13:49:45.738: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617630585810	Marionette	INFO	Listening on port 33455
-1617630585906	Marionette	WARN	TLS certificate errors will be ignored for this session
-1617630592331	Marionette	INFO	Stopped listening on port 33455
+(/usr/lib/firefox/firefox:13589): GLib-GObject-CRITICAL **: 07:35:18.892: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617773718994	Marionette	INFO	Listening on port 41339
+1617773719109	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13637): GLib-GObject-CRITICAL **: 07:35:19.365: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617773719898	Marionette	INFO	Stopped listening on port 41339
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:13789): GLib-GObject-CRITICAL **: 07:35:57.158: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13836): GLib-GObject-CRITICAL **: 07:35:57.567: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13854): GLib-GObject-CRITICAL **: 07:35:57.685: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617773757822	Marionette	INFO	Listening on port 38091
+1617773757925	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13898): GLib-GObject-CRITICAL **: 07:35:58.162: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617773762833	Marionette	INFO	Stopped listening on port 38091
+JavaScript error: , line 0: uncaught exception: undefined
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:15256): GLib-GObject-CRITICAL **: 07:46:05.469: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15301): GLib-GObject-CRITICAL **: 07:46:05.857: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617774366033	Marionette	INFO	Listening on port 43821
+1617774366149	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15339): GLib-GObject-CRITICAL **: 07:46:06.490: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/18301295379356610408​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
+1617774371813	Marionette	INFO	Stopped listening on port 43821
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:15569): GLib-GObject-CRITICAL **: 07:46:55.780: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15617): GLib-GObject-CRITICAL **: 07:46:56.194: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1617774416234	Marionette	INFO	Listening on port 46063
+1617774416352	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15653): GLib-GObject-CRITICAL **: 07:46:56.835: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UnhshoEcEp7BUdiAp0L0lVvGOuovhfpkH6FMm_tLZKs.js line 1 > eval line 4788 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UnhshoEcEp7BUdiAp0L0lVvGOuovhfpkH6FMm_tLZKs.js line 1 > eval line 4788 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1617774670468	Marionette	INFO	Listening on port 33293
+1617774670568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/simgad/18325749134819376253?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlunCKiF5SQMSbnoxY5_NBOC4qS0Q​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
+1617774687506	Marionette	INFO	Listening on port 34677
+1617774687584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617774721396	Marionette	INFO	Stopped listening on port 33293
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/4077594372906070076​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilesxMjtT/protections.sqlite
-1617630598344	geckodriver	INFO	Listening on 127.0.0.1:42593
-1617630598353	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO5gEKr"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:48289): GLib-GObject-CRITICAL **: 13:49:59.295: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:48308): GLib-GObject-CRITICAL **: 13:49:59.448: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-(/usr/lib/firefox/firefox:48359): GLib-GObject-CRITICAL **: 13:50:00.885: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617630600893	Marionette	INFO	Listening on port 34061
-1617630600987	Marionette	WARN	TLS certificate errors will be ignored for this session
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1617631815460	geckodriver	INFO	Listening on 127.0.0.1:53889
-1617631816448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile38qcMO"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:1410): GLib-GObject-CRITICAL **: 14:10:18.401: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:1429): GLib-GObject-CRITICAL **: 14:10:18.559: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1617631820043	Marionette	INFO	Listening on port 38713
-
-(/usr/lib/firefox/firefox:1502): GLib-GObject-CRITICAL **: 14:10:20.052: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617631820095	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/2618127679718703748​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-1617631829819	Marionette	INFO	Stopped listening on port 38713
-1617631835695	geckodriver	INFO	Listening on 127.0.0.1:33181
-1617631835704	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1bZ2FK"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:1626): GLib-GObject-CRITICAL **: 14:10:36.601: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:1645): GLib-GObject-CRITICAL **: 14:10:36.740: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1617631838144	Marionette	INFO	Listening on port 40779
-
-(/usr/lib/firefox/firefox:1719): GLib-GObject-CRITICAL **: 14:10:38.187: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617631838236	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/2618127679718703748​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1617632016324	geckodriver	INFO	Listening on 127.0.0.1:53275
-1617632016334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQwIKkG"
-*** You are running in headless mode.
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: glxtest: Unable to open a connection to the X server
-[GFX1-]: glxtest: libEGL missing
-[GFX1-]: No GPUs detected via PCI
-
-(/usr/lib/firefox/firefox:1848): GLib-GObject-CRITICAL **: 14:13:37.238: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-
-(/usr/lib/firefox/firefox:1867): GLib-GObject-CRITICAL **: 14:13:37.376: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1617632018758	Marionette	INFO	Listening on port 33335
-
-(/usr/lib/firefox/firefox:1929): GLib-GObject-CRITICAL **: 14:13:38.816: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1617632018864	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://s0.2mdn.net/simgad/2618127679718703748​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
-JavaScript error: https://cdn.ampproject.org/rtv/012103020108001/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
+1617774724303	Marionette	INFO	Stopped listening on port 34677

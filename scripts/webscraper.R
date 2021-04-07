@@ -11,161 +11,104 @@ suppressMessages(library(log4r))
 delay_by <- function(f, amount) {
   force(f)
   force(amount)
-  
   function(...) {
     Sys.sleep(amount)
     f(...)
   }
 }
-get_single_recipe_df <- function(session, url) {
 
-  id <- stringr::str_sub(url, start = 35L, end = -1L)
-  content <- polite::nod(session, url) %>%
-    scrape()
-  title <- content %>%
-    html_node(".title") %>%
-    html_text()
-  cooking_time <- content %>%
-    html_node(".cooking-time") %>%
-    html_text()
-  ingredients <- content %>%
-    html_nodes(".ingredient-name") %>%
-    html_text()
-  ingredients_quantity <- content %>%
-    html_nodes(".ingredient-quantity-amount") %>%
-    html_text()
-  servings <- content %>%
-    html_node(".servings") %>%
-    html_text()
-  instructions <- content %>%
-    html_node(".instructions") %>%
-    html_text()
-  comments_user_name <- content %>%
-    html_nodes(".user-name") %>%
-    html_text()
-  comments_date <- content %>%
-    html_nodes(".published_date") %>%
-    html_text()
-  comments_text <- content %>%
-    html_nodes(".video-tsukurepo-list-body") %>%
-    html_text()
-  keywords <- content %>%
-    html_nodes(".tag-text") %>%
-    html_text()
-  categories <- content %>%
-    html_nodes("table.related-video-categories-root") %>%
-    html_table()
-  recepies_df <- tibble(id = id, recipe_name = title, cooking_time = cooking_time,
-                        servings = servings, instructions = instructions)
-  ingredients_df <- tibble(id = id, ingredient = ingredients,
-                           quantity = ingredients_quantity)
-  comments_df <- tibble(id = id, user = comments_user_name,
-                        date = comments_date, text = comments_text)
-  keywords_df <- tibble(id = id, keyword = keywords)
-  categories_df <- categories %>%
-    flatten_df() %>%
-    mutate(id = id)
-
-  list(recepies_df, ingredients_df, comments_df, categories_df)
-}
-
-# Iterate over ever recipe
-
-get_all_recipe_links <- function(session, current_page) {
-  recipe_links <- vector(mode = "character")
-  response <- scrape(session,
-                     query = list(page = current_page)) %>%
-    html_nodes(".title") %>%
-    html_attr("href")
-  recipe_links <- c(recipe_links,
-                    map_chr(response,
-                            ~glue("https://www.kurashiru.com", .x)))
-  recipe_links
-}
-
-get_recipes_in_page_range <- function(first_page, last_page) {
-  base_url <- "https://www.kurashiru.com/video_categories/139"
-  session <- polite::bow(base_url)
-  default_logger <- log4r::logger()
-  for(current_page in first_page:last_page) {
-    log4r::info(default_logger, glue::glue("Started obtaining recipe links for page {current_page}."))
-    recipe_links <- session %>%
-      get_all_recipe_links(current_page)
-    log4r::info(default_logger, glue::glue("Finished obtaining recipe links for page {current_page}."))
-    get_single_recipe_delayed <- delay_by(get_single_dynamic_recipe_df, 5)
-    recipe_list <- purrr::map2(recipe_links, 1:30, function(url, recipe_number) {
-    				      log4r::info(default_logger, glue::glue("Started to obtain recipe {recipe_number} on page {current_page}."))
-				      get_single_recipe_delayed(url)
-    				      log4r::info(default_logger, glue::glue("Finished to obtain recipe {recipe_number} on page {current_page}."))
-		    })
-    combined_recipes <- recipe_list %>%
-      reduce(function(first_list, second_list) {
-               purrr::map2(first_list, second_list, dplyr::bind_rows)})
-
-    log4r::info(default_logger, glue::glue("Started writing page {current_page} to database."))
-    write_status <- write_to_db(combined_recipes)
-    log4r::info(default_logger, glue::glue("Finished writing page {current_page} to database with status {write_status}."))
+log_message <- function(f, path_log_file, starting_message, stopping_message) {
+  force(f)
+  force(path_log_file)
+  force(starting_message)
+  force(stopping_message)
+  function(...) {
+    default_logger <- log4r::logger(appenders =
+                                    log4r::file_appender(path_log_file))
+    log4r::info(default_logger, starting_message)
+    f(...)
+    log4r::info(default_logger, stopping_message)
   }
 }
 
-get_single_dynamic_recipe_df <- function(url) {
+scrape_recipe_links <- function(page_number) {
+  recipe_links <- vector(mode = "character")
+  base_url <- "https://www.kurashiru.com/video_categories/139"
+  recipe_links <- rvest::read_html(base_url,
+                     query = list(page = page_number)) %>%
+    html_nodes(".title") %>%
+    html_attr("href")
+  recipe_links %>%
+    map_chr(~glue("https://www.kurashiru.com", .x))
+}
 
-  id <- stringr::str_sub(url, start = 35L, end = -1L)
-  system(glue::glue("google-chrome --log-level=3 --headless --disable-gpu --dump-dom {url} > current_page.html"))
-  content <- rvest::read_html("current_page.html", encoding = "utf-8")
+scrape_recipes <- function(recipe_links, path_log_file) {
+    scrape_dynamic_page_delayed_log <- scrape_dynamic_page %>%
+      delay_by(5) %>%
+      log_message(path_log_file,
+                  glue::glue("Starting to obtain recipe."),
+                  glue::glue("Finished to obtaining recipe."))
+    recipe_links %>%
+      purrr::map(function(url) {
+                  id <- stringr::str_sub(url, start = 35L, end = -1L)
+				          scrape_dynamic_page_delayed_log(url, "current_page.html")
+                  parse_recipe_html("current_page.html", id)
+  })
+}
 
+bind_rows_recipe_list <- function(recipe_list) {
+  recipe_list %>%
+    reduce(function(first_list, second_list) {
+             purrr::map2(first_list, second_list, dplyr::bind_rows)})
+}
+
+scrape_dynamic_page  <- function(url, output_path) {
+  system(glue::glue("google-chrome-stable --log-level=3 --headless --disable-gpu --dump-dom {url} > {output_path}"))
+}
+
+parse_recipe_html <- function(html_path, id) {
+  content <- rvest::read_html(html_path, encoding = "utf-8")
   title <- content %>%
     html_node(".title") %>%
     html_text() %>%
     str_remove_all("レシピ・作り方|\\s")
-
   cooking_time <- content %>%
     html_node(".cooking-time") %>%
     html_text() %>%
     map_chr(~str_remove_all(., "調理時間：|\\s"))
-
   ingredients <- content %>%
     html_nodes(".ingredient-name") %>%
     html_text() %>%
     map_chr(~str_remove_all(., "\\s"))
-
   ingredients_quantity <- content %>%
     html_nodes(".ingredient-quantity-amount") %>%
     html_text()
-
   servings <- content %>%
     html_node(".servings") %>%
     html_text() %>%
     str_extract("\\d")
-
   instructions <- content %>%
     html_node(".instructions") %>%
     html_text() %>%
     map_chr(~str_remove_all(., "\\s"))
-
   comments_user_name <- content %>%
     html_nodes(".user-name") %>%
     html_text() %>%
     map_chr(~str_remove_all(., "\\s"))
-
   comments_date <- content %>%
     html_nodes(".published-date") %>%
     html_text() %>%
     map_chr(~str_remove_all(., "\\s"))
-
   comments_text <- content %>%
     html_nodes(".video-tsukurepo-list-body") %>%
     html_text() %>%
     map_chr(~str_remove_all(., "\\s"))
-
   keywords <- content %>%
     html_nodes(".tag-text") %>%
     html_text()
-
   categories <- content %>%
     html_nodes("table.related-video-categories-root") %>%
     html_table()
-
   recepies_df <- tibble(id = id, recipe_name = title, cooking_time = cooking_time,
                         servings = servings, instructions = instructions)
   ingredients_df <- tibble(id = id, ingredient = ingredients,
@@ -176,25 +119,26 @@ get_single_dynamic_recipe_df <- function(url) {
   categories_df <- categories %>%
     flatten_df() %>%
     mutate(id = id)
-
-  list(recepies_df, ingredients_df, comments_df, categories_df)
+  list(recipes = recepies_df, ingredients = ingredients_df,
+       comments = comments_df, categories = categories_df)
 }
-write_to_db <- function(combined_recipes) {
+
+write_to_db <- function(dataframes) {
   con <- DBI::dbConnect(RPostgreSQL::PostgreSQL(),
                         host = "localhost",
                         port = 5432,
                         dbname = "recipes",
                         user = "jonathan",
                         password = "password")
-  table_names <- c("recipe", "ingredients", "comments", "categories")
-  write_status <- purrr::map2_lgl(combined_recipes, table_names,
+  table_names <- names(dataframes)
+  write_status <- purrr::map2_lgl(dataframes, table_names,
     ~DBI::dbWriteTable(con, .y, .x, append = TRUE, row.names = FALSE))
-
   DBI::dbDisconnect(con)
   return(write_status)
 }
+
 #url <- "https://www.kurashiru.com/recipes/3365e1c3-f4e5-4de4-8b04-f1ad19e44f51"
 #output <- get_single_dynamic_recipe_df(url)
 #print(output)
 #write_to_db(output)
-get_recipes_in_page_range(1, 875)
+#get_recipes_in_page_range(1, 1)

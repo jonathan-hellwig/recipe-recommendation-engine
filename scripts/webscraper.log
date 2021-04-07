@@ -531,3 +531,5 @@ Error in UseMethod("xml_find_first") :
   no applicable method for 'xml_find_first' applied to an object of class "xml_document"
 Calls: get_recipes_in_page_range ... html_element -> html_element.default -> <Anonymous>
 Execution halted
+INFO  [2021-04-06 10:53:01] Started obtaining recipe
+links for page 1.
