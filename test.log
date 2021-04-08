@@ -1,0 +1,654 @@
+WARN  [2021-04-07 18:06:26] test message
+WARN  [2021-04-07 18:06:47] test message
+WARN  [2021-04-07 18:06:50] test message
+INFO  [2021-04-07 18:09:35] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 18:09:40] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 18:09:45] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 18:19:02] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 18:19:18] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 18:19:33] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 18:19:45] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 18:20:00] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 18:20:15] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 18:20:27] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 18:20:42] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 18:20:55] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 18:21:06] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 18:21:18] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 18:21:29] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 18:21:43] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 18:21:54] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 18:22:08] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 18:22:20] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 18:22:34] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 18:22:48] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 18:23:02] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 18:23:14] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 18:23:27] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 18:23:39] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 18:23:51] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 18:24:07] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 18:24:20] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 18:24:35] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 18:24:49] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 18:25:01] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 18:25:12] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 18:25:25] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 18:43:03] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 18:43:16] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 18:43:27] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 18:43:38] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 18:43:50] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 18:44:00] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 18:59:58] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 19:00:09] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 19:00:19] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 19:00:30] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 19:00:44] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 19:00:57] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 19:01:10] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 19:01:24] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 19:01:35] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 19:17:19] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 19:17:42] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 19:17:56] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 19:18:08] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 19:18:22] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 19:18:35] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 19:18:49] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 19:19:01] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 19:19:15] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 19:19:26] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 19:19:37] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 19:19:48] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 19:20:02] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 19:20:13] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 19:20:27] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 19:20:39] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 19:20:52] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 19:26:00] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 19:26:15] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 19:26:29] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 19:26:41] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 19:26:54] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 19:27:05] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 19:27:19] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 19:27:34] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 19:27:47] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 19:27:58] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 19:28:14] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 19:28:27] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 19:28:40] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 19:28:52] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 19:50:23] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 19:50:37] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 19:51:01] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 19:51:14] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 19:51:26] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 19:55:41] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 19:55:51] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 19:56:01] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 19:56:11] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 19:56:21] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 19:56:31] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 19:56:41] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 19:56:51] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 19:57:01] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 19:57:11] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 19:57:22] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 19:57:32] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 19:57:42] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 19:57:52] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 19:58:02] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 19:58:12] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 19:58:22] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 19:58:32] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 19:58:42] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 19:58:52] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 19:59:02] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 19:59:13] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 19:59:23] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 19:59:33] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 19:59:43] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 19:59:53] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 20:00:03] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 20:00:13] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 20:00:23] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 20:00:33] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:00:38] Failed to parse 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+WARN  [2021-04-07 20:00:38] Failed to parse 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+WARN  [2021-04-07 20:00:38] Failed to parse 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+WARN  [2021-04-07 20:00:38] Failed to parse ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+WARN  [2021-04-07 20:00:38] Failed to parse 627384f5-43b1-44f2-a95e-4641e29252c4.
+WARN  [2021-04-07 20:00:38] Failed to parse d91e86ca-4898-4493-9ad1-b464027ac3c7.
+WARN  [2021-04-07 20:00:38] Failed to parse 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+WARN  [2021-04-07 20:00:38] Failed to parse b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+WARN  [2021-04-07 20:00:38] Failed to parse 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+WARN  [2021-04-07 20:00:38] Failed to parse 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 20:00:38] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+WARN  [2021-04-07 20:00:38] Failed to parse 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+WARN  [2021-04-07 20:00:38] Failed to parse b8ef0760-e3d5-4589-8150-38df8e6799ca.
+WARN  [2021-04-07 20:00:38] Failed to parse ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+WARN  [2021-04-07 20:00:38] Failed to parse 1c38e66d-5c00-482c-9e15-2899683f58e8.
+WARN  [2021-04-07 20:00:38] Failed to parse b784ee82-6d66-4eb9-979a-76e165de4fc8.
+WARN  [2021-04-07 20:00:38] Failed to parse b0397261-9c73-4b54-96a4-9cff1b8ea288.
+WARN  [2021-04-07 20:00:38] Failed to parse 1cf90dab-9118-4d06-9320-f52a48154e46.
+WARN  [2021-04-07 20:00:38] Failed to parse beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+WARN  [2021-04-07 20:00:38] Failed to parse 7669f203-2c9b-4673-8416-471618ea5cf3.
+WARN  [2021-04-07 20:00:38] Failed to parse 513708e9-27f3-47bc-928f-f356a87d9581.
+WARN  [2021-04-07 20:00:38] Failed to parse bdba7074-542c-483a-8abb-fd3343173992.
+WARN  [2021-04-07 20:00:38] Failed to parse acd13497-d5bb-4e08-943d-6e941202ae95.
+WARN  [2021-04-07 20:00:38] Failed to parse 31bccba9-7def-46ee-b706-d64c97db02c9.
+WARN  [2021-04-07 20:00:38] Failed to parse 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+WARN  [2021-04-07 20:00:38] Failed to parse 291c5fb1-8261-4f09-9604-457f31efcd3e.
+WARN  [2021-04-07 20:00:39] Failed to parse 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+WARN  [2021-04-07 20:00:39] Failed to parse 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+WARN  [2021-04-07 20:00:39] Failed to parse 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+WARN  [2021-04-07 20:00:39] Failed to parse 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 20:24:55] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:25:01] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:25:07] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 20:25:13] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 20:25:19] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 20:25:25] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 20:25:31] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 20:25:37] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 20:25:43] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 20:25:49] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 20:25:55] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 20:26:02] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 20:26:08] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 20:26:14] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 20:26:20] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 20:26:26] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 20:26:32] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 20:26:38] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 20:26:44] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 20:26:50] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 20:26:56] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 20:27:02] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 20:27:08] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 20:27:14] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 20:27:20] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 20:27:26] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 20:27:32] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 20:27:38] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 20:27:44] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 20:27:50] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:27:51] Failed to parse 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+WARN  [2021-04-07 20:27:51] Failed to parse 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+WARN  [2021-04-07 20:27:51] Failed to parse 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+WARN  [2021-04-07 20:27:51] Failed to parse ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+WARN  [2021-04-07 20:27:51] Failed to parse 627384f5-43b1-44f2-a95e-4641e29252c4.
+WARN  [2021-04-07 20:27:51] Failed to parse d91e86ca-4898-4493-9ad1-b464027ac3c7.
+WARN  [2021-04-07 20:27:51] Failed to parse 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+WARN  [2021-04-07 20:27:51] Failed to parse b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+WARN  [2021-04-07 20:27:51] Failed to parse 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+WARN  [2021-04-07 20:27:51] Failed to parse 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 20:27:51] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+WARN  [2021-04-07 20:27:52] Failed to parse 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+WARN  [2021-04-07 20:27:52] Failed to parse b8ef0760-e3d5-4589-8150-38df8e6799ca.
+WARN  [2021-04-07 20:27:52] Failed to parse ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+WARN  [2021-04-07 20:27:52] Failed to parse 1c38e66d-5c00-482c-9e15-2899683f58e8.
+WARN  [2021-04-07 20:27:52] Failed to parse b784ee82-6d66-4eb9-979a-76e165de4fc8.
+WARN  [2021-04-07 20:27:52] Failed to parse b0397261-9c73-4b54-96a4-9cff1b8ea288.
+WARN  [2021-04-07 20:27:52] Failed to parse 1cf90dab-9118-4d06-9320-f52a48154e46.
+WARN  [2021-04-07 20:27:52] Failed to parse beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+WARN  [2021-04-07 20:27:52] Failed to parse 7669f203-2c9b-4673-8416-471618ea5cf3.
+WARN  [2021-04-07 20:27:52] Failed to parse 513708e9-27f3-47bc-928f-f356a87d9581.
+WARN  [2021-04-07 20:27:52] Failed to parse bdba7074-542c-483a-8abb-fd3343173992.
+WARN  [2021-04-07 20:27:52] Failed to parse acd13497-d5bb-4e08-943d-6e941202ae95.
+WARN  [2021-04-07 20:27:52] Failed to parse 31bccba9-7def-46ee-b706-d64c97db02c9.
+WARN  [2021-04-07 20:27:52] Failed to parse 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+WARN  [2021-04-07 20:27:52] Failed to parse 291c5fb1-8261-4f09-9604-457f31efcd3e.
+WARN  [2021-04-07 20:27:52] Failed to parse 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+WARN  [2021-04-07 20:27:52] Failed to parse 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+WARN  [2021-04-07 20:27:52] Failed to parse 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+WARN  [2021-04-07 20:27:52] Failed to parse 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 20:31:08] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:31:14] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:31:20] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 20:31:26] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 20:31:32] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 20:31:38] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 20:31:44] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 20:38:58] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:39:03] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:39:09] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 20:39:15] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 20:39:21] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 20:39:27] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 20:39:33] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 20:39:39] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 20:39:45] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 20:45:08] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:45:14] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:45:20] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 20:45:26] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 20:45:32] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 20:45:38] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 20:45:44] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 20:45:50] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 20:45:56] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 20:46:02] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 20:46:08] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 20:46:14] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 20:46:20] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 20:46:26] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 20:46:32] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 20:46:39] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 20:46:45] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 20:46:51] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 20:46:57] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 20:47:03] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 20:47:09] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 20:47:15] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 20:47:21] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 20:47:27] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 20:47:33] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 20:47:39] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 20:47:45] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 20:47:51] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 20:47:57] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 20:48:03] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:48:04] Failed to parse 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+WARN  [2021-04-07 20:48:04] Failed to parse 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+WARN  [2021-04-07 20:48:04] Failed to parse 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+WARN  [2021-04-07 20:48:04] Failed to parse ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+WARN  [2021-04-07 20:48:04] Failed to parse 627384f5-43b1-44f2-a95e-4641e29252c4.
+WARN  [2021-04-07 20:48:04] Failed to parse d91e86ca-4898-4493-9ad1-b464027ac3c7.
+WARN  [2021-04-07 20:48:04] Failed to parse 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+WARN  [2021-04-07 20:48:04] Failed to parse b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+WARN  [2021-04-07 20:48:04] Failed to parse 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+WARN  [2021-04-07 20:48:04] Failed to parse 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 20:48:04] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+WARN  [2021-04-07 20:48:04] Failed to parse 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+WARN  [2021-04-07 20:48:04] Failed to parse b8ef0760-e3d5-4589-8150-38df8e6799ca.
+WARN  [2021-04-07 20:48:04] Failed to parse ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+WARN  [2021-04-07 20:48:04] Failed to parse 1c38e66d-5c00-482c-9e15-2899683f58e8.
+WARN  [2021-04-07 20:48:04] Failed to parse b784ee82-6d66-4eb9-979a-76e165de4fc8.
+WARN  [2021-04-07 20:48:04] Failed to parse b0397261-9c73-4b54-96a4-9cff1b8ea288.
+WARN  [2021-04-07 20:48:04] Failed to parse 1cf90dab-9118-4d06-9320-f52a48154e46.
+WARN  [2021-04-07 20:48:04] Failed to parse beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+WARN  [2021-04-07 20:48:04] Failed to parse 7669f203-2c9b-4673-8416-471618ea5cf3.
+WARN  [2021-04-07 20:48:04] Failed to parse 513708e9-27f3-47bc-928f-f356a87d9581.
+WARN  [2021-04-07 20:48:04] Failed to parse bdba7074-542c-483a-8abb-fd3343173992.
+WARN  [2021-04-07 20:48:04] Failed to parse acd13497-d5bb-4e08-943d-6e941202ae95.
+WARN  [2021-04-07 20:48:04] Failed to parse 31bccba9-7def-46ee-b706-d64c97db02c9.
+WARN  [2021-04-07 20:48:04] Failed to parse 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+WARN  [2021-04-07 20:48:04] Failed to parse 291c5fb1-8261-4f09-9604-457f31efcd3e.
+WARN  [2021-04-07 20:48:04] Failed to parse 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+WARN  [2021-04-07 20:48:04] Failed to parse 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+WARN  [2021-04-07 20:48:04] Failed to parse 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+WARN  [2021-04-07 20:48:04] Failed to parse 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 20:52:27] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:52:33] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:52:39] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 20:52:45] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 20:52:51] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 20:52:57] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 20:53:03] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 20:53:09] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 20:53:15] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 20:53:21] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 20:53:27] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 20:53:33] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 20:53:39] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 20:53:45] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 20:53:51] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 20:53:57] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 20:54:03] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 20:54:09] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 20:54:15] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 20:54:21] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 20:54:27] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 20:54:33] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 20:54:39] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 20:54:45] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 20:54:52] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 20:54:58] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 20:55:04] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 20:55:10] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 20:55:16] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 20:55:22] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:55:23] Failed to parse 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+WARN  [2021-04-07 20:55:23] Failed to parse 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+WARN  [2021-04-07 20:55:23] Failed to parse 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+WARN  [2021-04-07 20:55:23] Failed to parse ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+WARN  [2021-04-07 20:55:23] Failed to parse 627384f5-43b1-44f2-a95e-4641e29252c4.
+WARN  [2021-04-07 20:55:23] Failed to parse d91e86ca-4898-4493-9ad1-b464027ac3c7.
+WARN  [2021-04-07 20:55:23] Failed to parse 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+WARN  [2021-04-07 20:55:23] Failed to parse b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+WARN  [2021-04-07 20:55:23] Failed to parse 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+WARN  [2021-04-07 20:55:23] Failed to parse 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 20:55:23] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+WARN  [2021-04-07 20:55:23] Failed to parse 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+WARN  [2021-04-07 20:55:23] Failed to parse b8ef0760-e3d5-4589-8150-38df8e6799ca.
+WARN  [2021-04-07 20:55:23] Failed to parse ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+WARN  [2021-04-07 20:55:23] Failed to parse 1c38e66d-5c00-482c-9e15-2899683f58e8.
+WARN  [2021-04-07 20:55:23] Failed to parse b784ee82-6d66-4eb9-979a-76e165de4fc8.
+WARN  [2021-04-07 20:55:23] Failed to parse b0397261-9c73-4b54-96a4-9cff1b8ea288.
+WARN  [2021-04-07 20:55:23] Failed to parse 1cf90dab-9118-4d06-9320-f52a48154e46.
+WARN  [2021-04-07 20:55:23] Failed to parse beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+WARN  [2021-04-07 20:55:23] Failed to parse 7669f203-2c9b-4673-8416-471618ea5cf3.
+WARN  [2021-04-07 20:55:23] Failed to parse 513708e9-27f3-47bc-928f-f356a87d9581.
+WARN  [2021-04-07 20:55:23] Failed to parse bdba7074-542c-483a-8abb-fd3343173992.
+WARN  [2021-04-07 20:55:23] Failed to parse acd13497-d5bb-4e08-943d-6e941202ae95.
+WARN  [2021-04-07 20:55:23] Failed to parse 31bccba9-7def-46ee-b706-d64c97db02c9.
+WARN  [2021-04-07 20:55:23] Failed to parse 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+WARN  [2021-04-07 20:55:23] Failed to parse 291c5fb1-8261-4f09-9604-457f31efcd3e.
+WARN  [2021-04-07 20:55:23] Failed to parse 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+WARN  [2021-04-07 20:55:23] Failed to parse 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+WARN  [2021-04-07 20:55:23] Failed to parse 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+WARN  [2021-04-07 20:55:23] Failed to parse 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:55:23] Failed to write to database.
+INFO  [2021-04-07 20:55:29] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:55:35] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:55:41] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 20:55:47] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 20:55:53] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 20:55:59] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 20:56:05] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 20:56:11] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 20:56:18] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 20:56:24] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 20:56:30] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 20:56:35] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 20:56:41] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 20:56:47] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 20:56:53] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 20:56:58] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 20:57:04] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 20:57:10] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 20:57:16] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 20:57:22] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 20:57:28] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 20:57:34] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 20:57:40] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 20:57:46] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 20:57:52] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 20:57:58] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 20:58:04] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 20:58:10] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 20:58:16] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 20:58:21] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:58:22] Failed to parse 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+WARN  [2021-04-07 20:58:22] Failed to parse 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+WARN  [2021-04-07 20:58:22] Failed to parse 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+WARN  [2021-04-07 20:58:22] Failed to parse ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+WARN  [2021-04-07 20:58:22] Failed to parse 627384f5-43b1-44f2-a95e-4641e29252c4.
+WARN  [2021-04-07 20:58:22] Failed to parse d91e86ca-4898-4493-9ad1-b464027ac3c7.
+WARN  [2021-04-07 20:58:22] Failed to parse 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+WARN  [2021-04-07 20:58:22] Failed to parse b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+WARN  [2021-04-07 20:58:22] Failed to parse 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+WARN  [2021-04-07 20:58:22] Failed to parse 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 20:58:22] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+WARN  [2021-04-07 20:58:22] Failed to parse 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+WARN  [2021-04-07 20:58:22] Failed to parse b8ef0760-e3d5-4589-8150-38df8e6799ca.
+WARN  [2021-04-07 20:58:22] Failed to parse ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+WARN  [2021-04-07 20:58:23] Failed to parse 1c38e66d-5c00-482c-9e15-2899683f58e8.
+WARN  [2021-04-07 20:58:23] Failed to parse b784ee82-6d66-4eb9-979a-76e165de4fc8.
+WARN  [2021-04-07 20:58:23] Failed to parse b0397261-9c73-4b54-96a4-9cff1b8ea288.
+WARN  [2021-04-07 20:58:23] Failed to parse 1cf90dab-9118-4d06-9320-f52a48154e46.
+WARN  [2021-04-07 20:58:23] Failed to parse beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+WARN  [2021-04-07 20:58:23] Failed to parse 7669f203-2c9b-4673-8416-471618ea5cf3.
+WARN  [2021-04-07 20:58:23] Failed to parse 513708e9-27f3-47bc-928f-f356a87d9581.
+WARN  [2021-04-07 20:58:23] Failed to parse bdba7074-542c-483a-8abb-fd3343173992.
+WARN  [2021-04-07 20:58:23] Failed to parse acd13497-d5bb-4e08-943d-6e941202ae95.
+WARN  [2021-04-07 20:58:23] Failed to parse 31bccba9-7def-46ee-b706-d64c97db02c9.
+WARN  [2021-04-07 20:58:23] Failed to parse 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+WARN  [2021-04-07 20:58:23] Failed to parse 291c5fb1-8261-4f09-9604-457f31efcd3e.
+WARN  [2021-04-07 20:58:23] Failed to parse 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+WARN  [2021-04-07 20:58:23] Failed to parse 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+WARN  [2021-04-07 20:58:23] Failed to parse 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+WARN  [2021-04-07 20:58:23] Failed to parse 67f3735a-5ecb-4375-951b-76c5186fc065.
+WARN  [2021-04-07 20:58:23] Failed to write to database.
+INFO  [2021-04-07 20:58:29] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 20:58:35] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 20:58:41] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:02:33] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:02:38] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:02:44] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:02:50] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:02:56] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:03:02] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:03:08] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:03:13] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:03:19] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:03:25] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:03:31] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:03:37] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:03:43] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:03:49] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:03:54] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:04:16] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:04:22] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:04:27] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:04:32] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:04:38] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:04:43] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:04:48] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:07:21] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:07:26] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:07:31] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:07:37] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:07:42] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:07:47] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:07:52] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:07:59] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:08:13] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:08:18] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:08:23] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:10:50] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:11:06] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:11:20] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:11:33] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:11:46] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:12:00] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:12:18] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:12:33] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:12:48] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:13:03] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:13:17] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:13:34] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:13:49] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:14:04] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:14:19] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:14:35] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 21:14:48] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 21:15:01] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 21:15:21] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 21:15:37] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 21:15:51] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 21:16:04] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 21:16:17] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 21:16:32] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 21:16:46] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 21:17:00] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 21:17:15] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 21:17:31] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 21:17:44] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 21:17:57] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 21:18:07] Successfully parsed 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:18:07] Successfully parsed 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:18:07] Successfully parsed 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:18:07] Successfully parsed ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:18:07] Successfully parsed 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:18:07] Successfully parsed d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:18:07] Successfully parsed 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:18:07] Successfully parsed b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:18:07] Successfully parsed 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:18:07] Successfully parsed 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:18:07] Successfully parsed bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:18:07] Successfully parsed 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:18:07] Successfully parsed b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:18:07] Successfully parsed ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:18:07] Successfully parsed 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:18:07] Successfully parsed b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 21:18:07] Successfully parsed b0397261-9c73-4b54-96a4-9cff1b8ea288.
+WARN  [2021-04-07 21:18:07] Failed to parse 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 21:18:07] Successfully parsed beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 21:18:07] Successfully parsed 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 21:18:07] Successfully parsed 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 21:18:07] Successfully parsed bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 21:18:07] Successfully parsed acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 21:18:07] Successfully parsed 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 21:18:07] Successfully parsed 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 21:18:07] Successfully parsed 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 21:18:07] Successfully parsed 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 21:18:07] Successfully parsed 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 21:18:07] Successfully parsed 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 21:18:07] Successfully parsed 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 21:18:07] Writing to database.
+INFO  [2021-04-07 21:18:07] Finished writing to database.
+INFO  [2021-04-07 21:18:13] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:18:29] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:18:43] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:18:57] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:19:12] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:19:31] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:19:44] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:19:58] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:20:11] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:20:23] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:20:36] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:20:49] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:21:04] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:21:20] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:21:45] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:21:59] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:22:13] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:22:27] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:22:40] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:22:55] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:23:10] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:23:24] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:23:39] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:23:54] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:24:04] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:24:19] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:24:33] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:24:46] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:25:01] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:25:16] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 21:25:30] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 21:25:44] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 21:25:59] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 21:26:13] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 21:26:27] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 21:26:40] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 21:26:55] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 21:27:08] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 21:27:23] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 21:27:37] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 21:27:51] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 21:28:07] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 21:28:21] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 21:28:34] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 21:28:44] Successfully parsed 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:28:44] Successfully parsed 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:28:44] Successfully parsed 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:28:44] Successfully parsed ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:28:44] Successfully parsed 627384f5-43b1-44f2-a95e-4641e29252c4.
+WARN  [2021-04-07 21:28:44] Failed to parse d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:28:44] Successfully parsed 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:28:44] Successfully parsed b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:28:44] Successfully parsed 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:28:44] Successfully parsed 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 21:28:44] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:28:44] Successfully parsed 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:28:44] Successfully parsed b8ef0760-e3d5-4589-8150-38df8e6799ca.
+WARN  [2021-04-07 21:28:44] Failed to parse ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+WARN  [2021-04-07 21:28:44] Failed to parse 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:28:44] Successfully parsed b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 21:28:44] Successfully parsed b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 21:28:44] Successfully parsed 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 21:28:44] Successfully parsed beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 21:28:44] Successfully parsed 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 21:28:44] Successfully parsed 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 21:28:44] Successfully parsed bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 21:28:44] Successfully parsed acd13497-d5bb-4e08-943d-6e941202ae95.
+WARN  [2021-04-07 21:28:44] Failed to parse 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 21:28:44] Successfully parsed 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 21:28:44] Successfully parsed 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 21:28:44] Successfully parsed 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 21:28:44] Successfully parsed 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 21:28:44] Successfully parsed 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 21:28:44] Successfully parsed 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 21:28:44] Writing to database.
+INFO  [2021-04-07 21:28:44] Finished writing to database.
+INFO  [2021-04-07 21:28:50] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:29:05] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:29:20] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:29:33] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:29:48] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:30:01] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:30:15] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:30:29] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:30:44] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:30:57] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:31:10] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:31:25] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:31:40] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:31:53] Obtaining recipe ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:32:03] Obtaining recipe 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:32:17] Obtaining recipe b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 21:32:30] Obtaining recipe b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 21:32:44] Obtaining recipe 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 21:32:58] Obtaining recipe beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 21:33:11] Obtaining recipe 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 21:33:24] Obtaining recipe 513708e9-27f3-47bc-928f-f356a87d9581.
+INFO  [2021-04-07 21:33:37] Obtaining recipe bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 21:33:52] Obtaining recipe acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 21:34:04] Obtaining recipe 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 21:34:16] Obtaining recipe 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 21:34:29] Obtaining recipe 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 21:34:40] Obtaining recipe 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 21:34:55] Obtaining recipe 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+INFO  [2021-04-07 21:35:07] Obtaining recipe 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 21:35:22] Obtaining recipe 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 21:35:31] Successfully parsed 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+WARN  [2021-04-07 21:35:31] Failed to parse 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:35:31] Successfully parsed 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:35:31] Successfully parsed ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:35:31] Successfully parsed 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:35:31] Successfully parsed d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:35:31] Successfully parsed 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:35:31] Successfully parsed b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:35:31] Successfully parsed 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:35:31] Successfully parsed 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+WARN  [2021-04-07 21:35:31] Failed to parse bf9eaa88-9836-4029-819f-494f2148fbdd.
+WARN  [2021-04-07 21:35:31] Failed to parse 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:35:31] Successfully parsed b8ef0760-e3d5-4589-8150-38df8e6799ca.
+INFO  [2021-04-07 21:35:31] Successfully parsed ad7d7b01-80bf-4dfe-ad74-45a607d3c4f9.
+INFO  [2021-04-07 21:35:31] Successfully parsed 1c38e66d-5c00-482c-9e15-2899683f58e8.
+INFO  [2021-04-07 21:35:31] Successfully parsed b784ee82-6d66-4eb9-979a-76e165de4fc8.
+INFO  [2021-04-07 21:35:31] Successfully parsed b0397261-9c73-4b54-96a4-9cff1b8ea288.
+INFO  [2021-04-07 21:35:31] Successfully parsed 1cf90dab-9118-4d06-9320-f52a48154e46.
+INFO  [2021-04-07 21:35:31] Successfully parsed beaa0a29-eb21-4e9d-af0b-69b90bb0e58c.
+INFO  [2021-04-07 21:35:31] Successfully parsed 7669f203-2c9b-4673-8416-471618ea5cf3.
+INFO  [2021-04-07 21:35:31] Successfully parsed 513708e9-27f3-47bc-928f-f356a87d9581.
+WARN  [2021-04-07 21:35:31] Failed to parse bdba7074-542c-483a-8abb-fd3343173992.
+INFO  [2021-04-07 21:35:31] Successfully parsed acd13497-d5bb-4e08-943d-6e941202ae95.
+INFO  [2021-04-07 21:35:31] Successfully parsed 31bccba9-7def-46ee-b706-d64c97db02c9.
+INFO  [2021-04-07 21:35:31] Successfully parsed 73cdc3d0-fc12-4c67-9e1c-4eab5c985f42.
+INFO  [2021-04-07 21:35:31] Successfully parsed 291c5fb1-8261-4f09-9604-457f31efcd3e.
+INFO  [2021-04-07 21:35:31] Successfully parsed 1f04d541-aa2a-4b15-8885-6a2b0fa53c89.
+INFO  [2021-04-07 21:35:31] Successfully parsed 375f52fe-c96d-46ff-beb2-bf2244b7f879.
+WARN  [2021-04-07 21:35:31] Failed to parse 4afa40f9-5ca9-4a86-9125-f6dbe8326cb5.
+INFO  [2021-04-07 21:35:31] Successfully parsed 67f3735a-5ecb-4375-951b-76c5186fc065.
+INFO  [2021-04-07 21:35:31] Writing to database.
+INFO  [2021-04-07 21:35:31] Finished writing to database.
+INFO  [2021-04-07 21:35:37] Obtaining recipe 4e9acd67-e7b3-4d9d-bddf-a0eca0645bc1.
+INFO  [2021-04-07 21:35:51] Obtaining recipe 31ffc30f-262b-4c54-a3e8-5ac6f345ba9f.
+INFO  [2021-04-07 21:36:05] Obtaining recipe 5f847195-ad4a-4e60-b315-53a2b0e10e56.
+INFO  [2021-04-07 21:36:20] Obtaining recipe ba6e9747-b4bf-4471-a7ff-2bb001d70d0c.
+INFO  [2021-04-07 21:36:35] Obtaining recipe 627384f5-43b1-44f2-a95e-4641e29252c4.
+INFO  [2021-04-07 21:36:50] Obtaining recipe d91e86ca-4898-4493-9ad1-b464027ac3c7.
+INFO  [2021-04-07 21:37:04] Obtaining recipe 29254d60-0311-4840-afe3-7f9d6a5cdb71.
+INFO  [2021-04-07 21:37:19] Obtaining recipe b3b25dcf-f4cf-4afd-9bdc-e2a8f75ed7b0.
+INFO  [2021-04-07 21:37:32] Obtaining recipe 83a562d0-4d6a-4b9d-86de-ed7b8ab58a54.
+INFO  [2021-04-07 21:37:47] Obtaining recipe 84641de1-0708-4ad0-8d8c-e1b82a58fd03.
+INFO  [2021-04-07 21:38:02] Obtaining recipe bf9eaa88-9836-4029-819f-494f2148fbdd.
+INFO  [2021-04-07 21:38:16] Obtaining recipe 2ca1f950-ce19-49d1-a8f4-864fb88941db.
+INFO  [2021-04-07 21:38:29] Obtaining recipe b8ef0760-e3d5-4589-8150-38df8e6799ca.

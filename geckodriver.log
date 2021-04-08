@@ -1,0 +1,16 @@
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:83585): GLib-GObject-CRITICAL **: 11:47:07.771: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:83602): GLib-GObject-CRITICAL **: 11:47:07.861: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617875228462	Marionette	INFO	Listening on port 34491
+1617875228556	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:83674): GLib-GObject-CRITICAL **: 11:47:08.752: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/71hr94SUjmI4WsmVKl_xSF-LeUxrKTKLcbZwOLomvE8.js line 1 > eval line 1304 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/71hr94SUjmI4WsmVKl_xSF-LeUxrKTKLcbZwOLomvE8.js line 1 > eval line 1304 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1617875234040	Marionette	INFO	Stopped listening on port 34491
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
